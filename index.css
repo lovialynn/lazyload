@@ -1,0 +1,346 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+#all {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2,
+h4 ,h5{
+    font-weight: 200;
+}
+
+#container {
+    width: 750px;
+}
+
+#logo1 {
+    height: 50px;
+    width: 120px;
+
+}
+
+#logoBack {
+    background-color: #d9251e;
+    height: 70px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header {
+    display: flex;
+}
+
+#headerA {
+    width: 400px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    justify-content: space-around;
+}
+
+#lun {
+    background-image: url(./img/back.png);
+    height: 260px;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#lunCenter {
+    width: 750px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#lunCenterTop {
+    width: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+#lunCenterTop div h4 {
+    margin-top: 20px;
+}
+
+.lunCenterbtn {
+    background-color: rgba(255, 255, 255, 0.13);
+    height: 30px;
+    width: 20px;
+    border: none;
+    color: rgb(209, 209, 209);
+}
+
+.moreBtn {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(255, 255, 255, 0.459);
+    border-radius: 3px;
+    padding: 10px 20px;
+    color: white;
+    margin-top: 20px;
+}
+.circle{
+    height: 10px;
+    width: 10px;
+    background-color: rgba(190, 70, 49, 0.753);
+    border-radius: 100%;
+    margin: 4px;
+}
+#circleList{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+}
+#title{
+    background-color: #d9251e;
+    height: 260px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+#title>ul{
+    display: flex;
+    width: 750px;
+    justify-content: space-between;
+    align-items: center;
+}
+.star{
+    background-image: url(./img/xuebi.png);
+    height: 20px;
+    width: 15px;
+    background-size: cover;
+    margin-right: 5px;
+}
+.bigstar{
+    display: flex;
+    margin:5px 0;
+}
+#icon1{
+    background-image: url(./img/xuebi.png);
+    height: 80px;
+    width: 70px;
+    background-position-x:-60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#icon2{
+    background-image: url(./img/xuebi.png);
+    height: 80px;
+    width: 65px;
+    background-position-x:-127px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#icon3{
+    background-image: url(./img/xuebi.png);
+    height: 80px;
+    width: 65px;
+    background-position-x:-190px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#icon4{
+    background-image: url(./img/xuebi.png);
+    height: 80px;
+    width: 65px;
+    background-position-x:-255px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.moreBtn.moreBtn2{
+    padding: 5px 15px;
+    margin-top: 5px;
+}
+.deepred{
+    background-color: #c90001;
+    height: 100%;
+    width: 200px;
+}
+.titleItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.redLine{
+    background-color: #d9251e;
+    width: 100px;
+    height: 2px;
+}
+.content1{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+}
+.redLine.short{
+    width: 30px;
+    height: 4px;
+}
+.red{
+    color: #d9251e;
+}
+.pad5{
+    padding-top: 5px;
+}
+.flex{
+    display: flex;
+}
+.pic1Item{
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+}
+.pic1{
+    height: 280px;
+    width: 180px;
+}
+.redFang{
+    height: 30px;
+    width: 40px;
+    background-color: #d9251e;
+}
+.redLine.xie{
+    width: 40px;
+    transform:rotate(-75deg);
+-ms-transform:rotate(-75deg); /* Internet Explorer */
+-moz-transform:rotate(-75deg); /* Firefox */
+-webkit-transform:rotate(-75deg); /* Safari 和 Chrome */
+-o-transform:rotate(-75deg); /* Opera */   
+
+}
+.content2{
+    padding: 20px 0;
+    display: flex;
+}
+.content2>div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.redLine.full{
+    width: 300px;
+
+}
+.btnNone{
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+}
+.content2Top{
+     display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.content2Top>div{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.content2Main{
+    width: 90%;
+}
+.content2Main>div{
+    display: flex;
+}
+.content2Mainitem1{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+.content2Mainitem{
+    padding: 20px 0;
+}
+.dashed{
+    width: 100%;
+    border: 1px dashed black;
+}
+.content3Top{
+    display: flex;
+    width: 100%;
+}
+.redLine.full.long{
+    width: 700px;
+}
+.content3Items{
+    width: 750px;
+    display: flex;
+    
+}
+.content3Item{
+    width: 25%;
+    height: 110px;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+}
+.content3Center{
+    padding:50px 0;
+}
+.bottom{
+    width: 100%;
+  
+}
+.bottom1{
+    background-color: #d9251e;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+     color:white
+}
+.bottom1Img{
+    width: 180px;
+    height: 80px;
+}
+.bottom1Detail h4{
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.longLine{
+background-color: white;
+height: 130px;
+width: 2px;
+}
+.bottom2{
+    background-color: black;
+    color: rgb(105, 105, 105);
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#toTop{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: rgba(238, 236, 236, 0.815);
+}
